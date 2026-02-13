@@ -7,7 +7,7 @@
 
   "functions": {
     "api/**/*.ts": {
-      "runtime": "nodejs20.x",
+      "runtime": "vercel-php@0.7.4",
       "maxDuration": 10
     }
   }

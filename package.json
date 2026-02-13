@@ -1,0 +1,23 @@
+{
+  "name": "bettercopelk-php-api",
+  "version": "1.0.0",
+  "description": "Sinhala Subtitle Search and Download API",
+  "author": "TheCHARITH (Charith Pramodya Senananayake)",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc",
+    "start": "node dist/api/index.js"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
